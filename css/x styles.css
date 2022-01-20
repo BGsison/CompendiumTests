@@ -1,0 +1,201 @@
+body {
+    background: white;
+    margin: 0px;
+	overflow-x: hidden;
+}
+
+
+header {
+    background: #0f1418;
+    padding: 10px 20px 10px 20px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+	width: 99%;
+	top: 0;
+	left: 0;
+	box-shadow: 0px 0px 8px 2px #0f1418;
+}
+
+h1, h3, p {
+	margin: 0px;
+}
+
+h3 {
+	margin: 5px 0px 10px 0px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 65px auto;
+}
+<!--
+.logo-pic {
+    width: 65px;
+    height: 65px;
+}-->
+
+.logo-title, .site-name {
+    vertical-align: middle;
+}
+
+.site-name {
+    <!--margin: 5px 5px 0px 5px;-->
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-title {
+    height: 55px;
+    <!---width: 130px;--->
+    <!---40px--->
+}
+<!--
+.subtitle {
+    font-size: 15px;
+    margin: 0px;
+}-->
+
+.links {
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.links a:link, .links a:visited {
+  background-color: #263038;
+  color: #eeeeee;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.links a:hover, .links a:active {
+  background-color: #42545c;
+  color: white;
+}
+
+.main {
+	width: 75%;
+	margin: auto;
+	margin-bottom: 45px;
+  color: #0f1418;
+}
+
+.main p {
+	padding-top: 5px
+}
+
+.top-main {
+	display: flex;
+}
+
+.top-main img{
+	width: 55%;
+	height: 100%;
+	padding: 25px 20px 10px 0px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.top-main div {
+	width: 45%;
+	padding: 10px 20px 10px 0px;
+	margin-left:  10px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.top-main div p {
+	height: 75%;
+}
+
+.top-main div h1 {
+	text-align: center;
+}
+
+.bottom-main {
+	display: flex;
+    justify-content: space-between;
+}
+
+.bottom-main div {
+	width: 30%;
+}
+
+.learn-more {
+	background-color: #263038;
+}
+
+.footer {
+    background: #0f1418;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+	
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 99%;
+}
+
+.footer div{
+	color: #eeeeee;
+}
+
+.footer info div {
+	font-size: 15px;
+	padding: 0px 0px 10px 0px;
+}
+
+.more {
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+.more a:link, .more a:visited {
+  text-decoration: none;
+  color: #42545c;
+  color: #698085;
+}
+
+.more a:hover {
+  text-decoration: underline;
+  color: #42545c;
+  color: #698085;
+}
+
+.more a:active {
+  text-decoration: underline;
+  color: #698085;
+  color: #93a8ab;
+  <!--color: #0de9a9;-->
+  <!--color: #5c7278;-->
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #dddddd; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #698085; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #42545c; 
+}

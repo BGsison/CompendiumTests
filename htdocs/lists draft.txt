@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lists &vert; Amphibia Compendium</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Li26">
+        <meta name="keywords" content="compendium">
+        <meta name="revised" content="xxxx">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <div class="site-name">
+                    <a href="index.html"><img class="logo-title" src="images/testlogo6.png" alt=""></a>
+                </div>
+            </div>
+            <div class="links">
+                <span><a href="#info">About</a></span>
+            </div>
+        </header>
+        
+		<div class="main">
+			<div class="top-main">
+				<img src="images/maxresdefault.jpg" alt="">
+				<div>
+					<h1>Lorem ipsum</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua. Mattis enim ut tellus elementum. Hendrerit dolor
+					magna eget est lorem ipsum dolor sit.</p>
+				</div>
+			</div>
+			<div class="bottom-main">
+				<div>
+					<h2>Lorem ipsum</h2>
+					<p>Donec adipiscing tristique risus nec feugiat in fermentum.
+					Arcu odio ut sem nulla pharetra diam sit. Vestibulum morbi
+					landit cursus risus. Elit ullamcorper dignissim cras
+					tincidunt lobortis feugiat vivamus.</p>
+				</div>
+				<div>
+					<h2>Lorem ipsum</h2>
+					<p>Donec adipiscing tristique risus nec feugiat in fermentum.
+					Arcu odio ut sem nulla pharetra diam sit. Vestibulum morbi
+					landit cursus risus. Elit ullamcorper dignissim cras
+					tincidunt lobortis feugiat vivamus.</p>
+				</div>
+				<div class="links learn-more">
+					<a href="index.html">Learn More &rarr;<br>&lt but looks like logo &gt</a>
+				</div>
+			</div>
+		</div>
+        
+		<footer>
+			<div id="info">
+				<h3>Info about this site</h3>
+				<div>
+					<li>Nunc sed augue lacus viverra. Et netus et malesuada fames</li>
+					<li>Pretium quam vulputate dignissim suspendisse</li>
+					<li>Made by Tobias &vert; they&sol;them</li>
+					<li class="more">Read More in our <a href="about.html">About Page</a></li>
+				</div>
+			</div>
+			<div class="links">
+				<span><a href="index.html">Back to Top</a></span>
+			</div>
+		</footer>
+    </body>
+</html>
